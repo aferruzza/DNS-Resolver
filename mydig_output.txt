@@ -1,0 +1,78 @@
+>>>DENOTES INPUT
+THIS FILE CONTAINS A FEW EXAMPLES OF THE RESOLVER
+
+C:\Users\andfe\AppData\Local\Programs\Python\Python39\python.exe C:\Users\andfe\PycharmProjects\CSE310-HW1\mydig.py
+
+>>>Enter a domain name using 'mydig' or 'end' to end the program:www.cnn.com
+Input must begin with 'mydig' command
+
+>>>Enter a domain name using 'mydig' or 'end' to end the program:mydig www.cnn.com
+QUESTION SECTION:
+www.cnn.com IN A
+
+ANSWER SECTION:
+www.cnn.com. 300 IN CNAME turner-tls.map.fastly.net.
+
+Query Time:  0.22986865043640137 seconds
+When:  Wed Feb 24 16:23:07 2021
+
+>>>Enter a domain name using 'mydig' or 'end' to end the program:mydig www.facebook.com
+QUESTION SECTION:
+www.facebook.com IN A
+
+ANSWER SECTION:
+www.facebook.com. 3600 IN CNAME star-mini.c10r.facebook.com.
+
+Query Time:  0.17548394203186035 seconds
+When:  Wed Feb 24 16:23:16 2021
+
+>>>Enter a domain name using 'mydig' or 'end' to end the program:mydig www.google.com
+QUESTION SECTION:
+www.google.com IN A
+
+ANSWER SECTION:
+www.google.com. 120 IN A 172.217.3.100
+
+Query Time:  0.2893564701080322 seconds
+When:  Wed Feb 24 16:23:25 2021
+
+>>>Enter a domain name using 'mydig' or 'end' to end the program:mydig www.yahoo.com
+QUESTION SECTION:
+www.yahoo.com IN A
+
+ANSWER SECTION:
+new-fp-shed.wg1.b.yahoo.com. 4 IN A 74.6.231.20
+new-fp-shed.wg1.b.yahoo.com. 4 IN A 74.6.231.21
+new-fp-shed.wg1.b.yahoo.com. 4 IN A 74.6.143.25
+new-fp-shed.wg1.b.yahoo.com. 4 IN A 74.6.143.26
+
+Query Time:  0.25874900817871094 seconds
+When:  Wed Feb 24 16:23:38 2021
+
+>>>Enter a domain name using 'mydig' or 'end' to end the program:www.wikipedia.org
+Input must begin with 'mydig' command
+
+>>>Enter a domain name using 'mydig' or 'end' to end the program:mydig wikipedia.org
+QUESTION SECTION:
+wikipedia.org IN A
+
+ANSWER SECTION:
+wikipedia.org. 518 IN A 208.80.154.224
+
+Query Time:  0.310927152633667 seconds
+When:  Wed Feb 24 16:24:14 2021
+
+>>>Enter a domain name using 'mydig' or 'end' to end the program:mydig bing.com
+QUESTION SECTION:
+bing.com IN A
+
+ANSWER SECTION:
+bing.com. 2439 IN A 13.107.21.200
+bing.com. 2439 IN A 204.79.197.200
+
+Query Time:  0.26674675941467285 seconds
+When:  Wed Feb 24 16:24:29 2021
+
+>>>Enter a domain name using 'mydig' or 'end' to end the program:end
+
+Process finished with exit code 0
